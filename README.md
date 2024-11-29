@@ -2,7 +2,7 @@
 <center>
 <img src="asset/2row_vis_1115.jpg" width="900px">
 </center>
-The official repository of the paper "MultiGO: Towards Multi-Level Geometry Learning for Monocular 3D Textured Human Reconstruction"
+The gallery of paper "MultiGO: Towards Multi-Level Geometry Learning for Monocular 3D Textured Human Reconstruction"
 
 # Abstract
 
@@ -494,9 +494,9 @@ This paper investigates the research task of reconstructing the 3D clothed human
 
 # Visualization for Ablation Study
 ## Visualizations on WLR Module
-
+<center>
 <img src="asset/Abl/refined_supp1.png" width="900px">
-
+</center>
 We provide further insights into the impact of the WLR module by comparing results before and after its implementation. The results clearly illustrate that the WLR module significantly enhances the geometric quality of the reconstructed mesh, particularly in capturing intricate details such as clothing wrinkles and facial features. The first row shows the normal map that has not been processed by the WLR module, while the second row shows the optimized normal map.
 
 ---
