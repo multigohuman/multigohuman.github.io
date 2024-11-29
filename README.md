@@ -1,8 +1,9 @@
 # MultiGO: Towards Multi-Level Geometry Learning for Monocular 3D Textured Human Reconstruction
 <center>
 <img src="asset/2row_vis_1115.jpg" width="900px">
-</center>
 The gallery of paper "MultiGO: Towards Multi-Level Geometry Learning for Monocular 3D Textured Human Reconstruction"
+</center>
+
 
 # Abstract
 
