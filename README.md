@@ -1,7 +1,7 @@
 # MultiGO: Towards Multi-Level Geometry Learning for Monocular 3D Textured Human Reconstruction
-
+<center>
 <img src="asset/2row_vis_1115.jpg" width="900px">
-
+</center>
 The official repository of the paper "MultiGO: Towards Multi-Level Geometry Learning for Monocular 3D Textured Human Reconstruction"
 
 # Abstract
@@ -13,7 +13,7 @@ This paper investigates the research task of reconstructing the 3D clothed human
 <img src="asset/Ours/Ours_ori_custom_049.glb.gif" width="230px"><img src="asset/Ours/Ours_ori_custom_026.glb.gif" width="230px"><img src="asset/Ours/Ours_ori_thuman_003.glb.gif" width="230px"><img src="asset/Ours/Ours_ori_thuman_055.glb.gif" width="230px">
 
 
-<img src="asset/Ours/Ours_refined_custom_049.obj.gif" width="250px"><img src="asset/Ours/Ours_refined_custom_026.obj.gif" width="250px"><img src="asset/Ours/Ours_refined_thuman_003.obj.gif" width="250px"><img src="asset/Ours/Ours_refined_thuman_055.obj.gif" width="250px">
+<img src="asset/Ours/Ours_refined_custom_049.obj.gif" width="230px"><img src="asset/Ours/Ours_refined_custom_026.obj.gif" width="230px"><img src="asset/Ours/Ours_refined_thuman_003.obj.gif" width="230px"><img src="asset/Ours/Ours_refined_thuman_055.obj.gif" width="230px">
 </center>
 
 # Compared with SOTA Methods
@@ -546,6 +546,6 @@ We presents additional results that highlight the effects of incorporating the S
 
 # How MultiGO Works
 <center>
-<img src="asset/Overview_1115.png" width="1000px">
+<img src="asset/Overview_1115.png" width="900px">
 </center>
 Our method, MultiGO, addresses monocular textured 3D human reconstruction by introducing a multi-level geometry learning framework that significantly enhances reconstruction quality. To accurately capture the human body's posture, we propose the SLE module, which projects 3D Fourier features into the 2D space of the input image, allowing the Gaussian reconstruction model to fully utilize prior human shape knowledge. For improved depth estimation of human joints, the JLA strategy applies controlled perturbations during training, increasing the model's robustness to depth inaccuracies during inference. To refine geometric details like body wrinkles, the WLR module resembles the final de-noising steps in diffusion theory, treating coarse meshes as Gaussian noise and using the high-quality texture of reconstructed Gaussian as conditions to refine wrinkles.
